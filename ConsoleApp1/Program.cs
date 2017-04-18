@@ -6,6 +6,12 @@
         {
             SomeFeature();
             AnotherFeature();
+            OneMoreFeature();
+        }
+
+        private static void OneMoreFeature()
+        {
+            throw new System.NotImplementedException();
         }
 
         private static void AnotherFeature()
