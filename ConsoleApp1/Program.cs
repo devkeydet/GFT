@@ -4,6 +4,12 @@
     {
         static void Main()
         {
+            SomeFeature();
+        }
+
+        private static void SomeFeature()
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
