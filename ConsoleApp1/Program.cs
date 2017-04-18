@@ -5,6 +5,19 @@
         static void Main()
         {
             SomeFeature();
+            AnotherFeature();
+            OneMoreFeature();
+        }
+
+        private static void OneMoreFeature()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        private static void AnotherFeature()
+        {
+            var x = "";
+            throw new System.NotImplementedException();
         }
 
         private static void SomeFeature()
