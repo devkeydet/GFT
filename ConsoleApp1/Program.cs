@@ -10,6 +10,7 @@
 
         private static void AnotherFeature()
         {
+            var x = "";
             throw new System.NotImplementedException();
         }
 
